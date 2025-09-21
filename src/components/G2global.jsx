@@ -10,7 +10,7 @@ export default function StoneTrailerLanding() {
       <header className="bg-gray-800 shadow-md sticky top-0 z-20">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-orange-400">
-            Stone & Trailer Co.
+            G2 global ventures.
           </h1>
           <nav className="hidden md:flex gap-6 text-sm font-medium">
             <a href="#materials" className="hover:text-orange-400">
