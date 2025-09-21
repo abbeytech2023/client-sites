@@ -48,7 +48,7 @@ export default function EzeNwanneAutos() {
           {["Toyota Camry", "Honda Accord", "Mercedes Benz"].map((car, idx) => (
             <div key={idx} className="p-4 bg-white shadow-md rounded-xl">
               <img
-                src={`https://source.unsplash.com/400x250/?car,${car}`}
+                src={`https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRveW90YSUyMGNhbXJ5fGVufDB8fDB8fHww`}
                 alt={car}
                 className="mb-4 rounded-lg"
               />
