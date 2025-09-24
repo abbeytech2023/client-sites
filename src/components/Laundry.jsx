@@ -95,8 +95,8 @@ const LaundryWebsiteDark = () => {
           Contact Us
         </h3>
         <p className="mb-2 text-lg">📍 Abiola Way, Abeokuta</p>
-        <p className="mb-2 text-lg">📞 08012345678</p>
-        <p className="mb-8 text-lg">📧 info@besttreatmentlaundry.com</p>
+        <p className="mb-2 text-lg">📞 08162010121</p>
+        <p className="mb-8 text-lg">📧 olanipekunabbey@gmail.com</p>
         <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-3 rounded-full font-bold shadow-lg">
           ✉️ Send a Message
         </button>
