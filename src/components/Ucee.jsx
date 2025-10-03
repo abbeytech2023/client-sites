@@ -54,7 +54,7 @@ function Ucee() {
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0">
           <img
-            src="https://via.placeholder.com/450x320"
+            src="https://images.unsplash.com/photo-1758348607292-60f450b10c40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3RyaWNhbCUyMHN0b3JlfGVufDB8fDB8fHww"
             alt="Electrical Products"
             className="rounded-lg shadow-lg mx-auto"
           />
@@ -68,20 +68,36 @@ function Ucee() {
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { name: "Copper Wire", price: "₦20,000" },
-            { name: "Ceiling Fan", price: "₦35,000" },
-            { name: "Wall Socket", price: "₦5,000" },
-            { name: "Cable Roll", price: "₦15,000" },
+            {
+              name: "Copper Wire",
+              price: "₦20,000",
+              image:
+                "https://images.unsplash.com/photo-1678119895596-411628b1f6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29wcGVyJTIwd2lyZXxlbnwwfHwwfHx8MA%3D%3D",
+            },
+            {
+              name: "Ceiling Fan",
+              price: "₦35,000",
+              image:
+                "https://media.istockphoto.com/id/2168958504/photo/wooden-ceiling-fan.webp?a=1&b=1&s=612x612&w=0&k=20&c=n1_Oii6CUXsRId89IsdTvyazZaIXl7AdnVKmaUYeLIU=",
+            },
+            {
+              name: "Wall Socket",
+              price: "₦5,000",
+              image:
+                "https://media.istockphoto.com/id/184303060/photo/uk-british-electrical-plug-socket-and-plug-on-a-wall.webp?a=1&b=1&s=612x612&w=0&k=20&c=2vLF7Ui3p0Cmz8nFlRnbzzZ7VzbuZgH0a9FLYEafnlI=",
+            },
+            {
+              name: "Cable Roll",
+              price: "₦15,000",
+              image:
+                "https://media.istockphoto.com/id/2159463506/photo/three-rolls-of-electrical-wire-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=T0zd6WlPp1g6v0fqhcXIxAkGtpB052uHEsy6Oo0Yab0=",
+            },
           ].map((p, idx) => (
             <div
               key={idx}
               className="border rounded-lg shadow-sm hover:shadow-md transition p-6 text-center bg-white"
             >
-              <img
-                src="https://via.placeholder.com/160"
-                alt={p.name}
-                className="h-28 mx-auto mb-4"
-              />
+              <img src={p.image} alt={p.name} className="h-28 mx-auto mb-4" />
               <h4 className="font-semibold text-lg">{p.name}</h4>
               <p className="text-blue-700 font-bold">{p.price}</p>
             </div>
@@ -105,8 +121,8 @@ function Ucee() {
       <section id="contact" className="px-8 py-20 text-center">
         <h3 className="text-3xl font-bold mb-6 text-blue-900">Contact Us</h3>
         <p className="mb-2">📧 Email: uceeelectricals@gmail.com</p>
-        <p className="mb-2">📞 Phone: +234 812 345 6789</p>
-        <p>📍 Location: Lagos, Nigeria</p>
+        <p className="mb-2">📞 Phone: +2348064428240</p>
+        <p>📍 Location: Ogun Abeokuta Abiola-way odo-eran, Nigeria</p>
       </section>
 
       {/* Footer */}
