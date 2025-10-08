@@ -5,6 +5,7 @@ import EzeNwanneAutos from "./components/CarDealer";
 import LaundryLanding from "./components/Laundry";
 import LazelleCarWash from "./components/LazelleCarWash";
 import YKSAlaseVentures from "./components/YKSAlaseVentures";
+import DjLambato from "./components/Lambato";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/wash" element={<LaundryLanding />} />
       <Route path="/g2" element={<G2global />} />
       <Route path="alase" element={<YKSAlaseVentures />} />
+      <Route path="lambato" element={<DjLambato />} />
       <Route path="/lazelle" element={<LazelleCarWash />} />
     </Routes>
   );
