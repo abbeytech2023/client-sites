@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Ucee from "./components/Ucee";
 import G2global from "./components/G2global";
-import EzeNwanneAutos from "./components/CarDealer";
+import Gman from "./components/Gman";
 import LaundryLanding from "./components/Laundry";
 import LazelleCarWash from "./components/LazelleCarWash";
 import YKSAlaseVentures from "./components/YKSAlaseVentures";
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Ucee />} />
-      <Route path="/eze" element={<EzeNwanneAutos />} />
+      <Route path="/real-estate" element={<Gman />} />
       <Route path="/wash" element={<LaundryLanding />} />
       <Route path="/g2" element={<G2global />} />
       <Route path="alase" element={<YKSAlaseVentures />} />
