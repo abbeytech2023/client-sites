@@ -1,22 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Ucee from "./components/Ucee";
-import G2global from "./components/G2global";
-import Gman from "./components/Gman";
 import LaundryLanding from "./components/Laundry";
-import LazelleCarWash from "./components/LazelleCarWash";
-import YKSAlaseVentures from "./components/YKSAlaseVentures";
-import DjLambato from "./components/Lambato";
+import Hero from "./components/Hero";
+import MusicSection from "./components/MusicSection";
+import Home from "./components/Home";
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Ucee />} />
-      <Route path="/real-estate" element={<Gman />} />
+      <Route path="/" element={<Home />} />
       <Route path="/wash" element={<LaundryLanding />} />
-      <Route path="/g2" element={<G2global />} />
-      <Route path="alase" element={<YKSAlaseVentures />} />
-      <Route path="lambato" element={<DjLambato />} />
-      <Route path="/lazelle" element={<LazelleCarWash />} />
     </Routes>
   );
 }
