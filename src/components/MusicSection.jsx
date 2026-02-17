@@ -38,7 +38,7 @@ export default function MusicSlider() {
   const currentSong = songs[currentIndex];
 
   return (
-    <section id="music" className="py-24 px-6 bg-black text-white">
+    <section id="" className="py-24 px-6 bg-black text-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12">
           Stream All Tracks
@@ -50,13 +50,13 @@ export default function MusicSlider() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-center md:text-left">
               {currentSong.title}
             </h3>
-            <div className="flex flex-col gap-6 md:flex-row">
+            <div className="flex flex-col gap-6 md:flex-row" id="videos">
               <div className="md:flex-1">
                 <p className="text-gray-300 mb-2">🎬 YouTube</p>
                 <YouTubeEmbed videoId={currentSong.youtubeId} />
               </div>
 
-              <div className="md:flex-1">
+              <div className="md:flex-1" id="music">
                 <p className="text-gray-300 mb-2">🍎 Apple Music</p>
                 <AppleMusicEmbed embedUrl={currentSong.appleEmbedUrl} />
               </div>
